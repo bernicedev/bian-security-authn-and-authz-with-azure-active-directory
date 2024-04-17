@@ -118,13 +118,13 @@ public class SecurityConfiguration {
 	@Bean
 	public UserDetailsService userDetailsService() {
 		UserDetails user1 = User.withDefaultPasswordEncoder()
-				.username("user1@springonedemo20210830.onmicrosoft.com")
-				.password("Voxu8138E")
+				.username("umar.desai@absa.africa")
+				.password("Voxu5438E")
 				.roles("USER")
 				.build();
 		UserDetails user2 = User.withDefaultPasswordEncoder()
-				.username("user2@springonedemo20210830.onmicrosoft.com")
-				.password("Qava8536G")
+				.username("ashwin.moosa@absa.africa")
+				.password("Pava8336G")
 				.roles("USER")
 				.build();
 		return new InMemoryUserDetailsManager(user1, user2);
